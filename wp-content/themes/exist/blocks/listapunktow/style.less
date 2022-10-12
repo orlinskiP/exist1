@@ -1,0 +1,96 @@
+#block_listapunktow {
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+
+    .points {
+        &__text {
+            font-size: 1.3rem;
+            padding: 10px 0;
+            margin-top: 30px;
+
+            span {
+                font-weight: 700;
+                font-size: 1.9rem !important;
+                line-height: 5rem;
+            }
+        }
+
+        &__list {
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+        }
+
+        &__elements {
+            font-size: 1.3rem;
+        }
+
+        &__vector {
+            width: 25px;
+            height: 20px;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    @media (min-width: 768px) {
+        min-height: 350px;
+
+        .points {
+            &__text {
+                font-size: 1.5rem;
+                padding: 20px 0;
+            }
+
+            &__list {
+                padding: 5px 0;
+            }
+
+            &__elements {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    @media (min-width: 1200px) {
+
+        .points {
+
+            &__list {
+                padding: 5px 0;
+            }
+
+            &__text {
+                font-size: 1.7rem;
+                padding: 20px 0;
+            }
+
+            &__elements {
+                font-size: 1.7rem;
+            }
+
+        }
+    }
+
+    @media (min-width: 1400px) {
+
+        .points {
+
+            &__list {
+                padding: 5px 0;
+            }
+
+            &__text {
+                font-size: 2.2rem;
+                padding: 20px 0;
+            }
+
+            &__elements {
+                font-size: 2.2rem;
+            }
+
+        }
+    }
+}

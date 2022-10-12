@@ -1,0 +1,194 @@
+@import (reference) "../../styles/vars.less";
+
+#block_benefits {
+    padding-bottom: 50px;
+
+    .benefits {
+        &__header {
+            font-size: 2.7rem;
+            font-weight: 700;
+            color: @color_main;
+            padding: 20px 0;
+        }
+
+        &__title {
+            padding: 10px 0;
+        }
+
+        &__text {
+            font-size: 1.6rem;
+            padding-bottom: 20px;
+        }
+
+        &__title {
+            font-weight: 700;
+            font-size: 1.8rem;
+        }
+
+        &__elements {
+            display: flex;
+            padding: 5px 0;
+
+            img {
+                width: 25px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        &__elementsText {
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            font-size: 1.5rem;
+        }
+
+        &__right {
+            padding-top: 10px;
+        }
+
+        &__info {
+            text-align: center;
+            padding-top: 10px;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        &__button {
+            padding-top: 50px;
+            display: flex;
+            justify-content: center;
+
+            a {
+                font-size: 1.5rem;
+                color: @color_white;
+                background-color: @color_orange;
+                padding: 15px 80px;
+                border-radius: 8px;
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        .benefits {
+            &__flex {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &__left {
+                width: 50%;
+            }
+
+            &__right {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                img {
+                    width: 60%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            &__imageBox {
+                &--image {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            &__text {
+                font-size: 1.7rem;
+            }
+
+            &__elementsText {
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+    @media (min-width: 992px) {
+        .benefits {
+            &__title {
+                padding: 20px 0;
+            }
+
+            &__right {
+                padding-top: 40px;
+
+                img {
+                    width: 70%;
+                }
+            }
+
+            &__info {
+                font-size: 2rem;
+            }
+
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .benefits {
+            &__header {
+                font-size: 3.5rem;
+            }
+
+            &__text {
+                font-size: 1.7rem;
+            }
+
+            &__elementsText {
+                font-size: 1.5rem;
+            }
+
+            &__info {
+                font-size: 2.2rem;
+            }
+
+            &__button {
+                a {
+                    font-size: 2.5rem;
+                    padding: 20px 100px;
+
+                }
+
+            }
+
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .benefits {
+            &__header {
+                font-size: 4rem;
+            }
+
+            &__text {
+                font-size: 1.9rem;
+            }
+
+            &__elementsText {
+                font-size: 1.9rem;
+            }
+
+            &__info {
+                font-size: 2.7rem;
+            }
+
+            &__button {
+                a {
+                    font-size: 3rem;
+                    padding: 20px 150px;
+
+                }
+
+            }
+
+        }
+    }
+}

@@ -1,0 +1,122 @@
+@color_1: #fff;
+@color_main: #FFA21C;
+@color_yellow: #FFE599;
+@color_white: #fff;
+@color_black: #000;
+@color_blue: #475BB3;
+@color_gray: #4F4F4F;
+@color_orange: #FF854E;
+
+@font_1: 'Nunito', sans-serif;
+@font_3: 'Nunito', sans-serif;
+@oswald: 'Nunito', sans-serif;
+
+.button_color_blue {
+	background-color: @color_blue;
+	color: @color_white  !important;
+
+	&:hover {
+		background-color: @color_white;
+		color: @color_blue  !important;
+		border: 1px solid @color_blue;
+
+		&::selection {
+			color: @color_white;
+		}
+	}
+
+	&::selection {
+		color: @color_main;
+	}
+}
+
+.button_color_yellow {
+	background-color: @color_yellow;
+	color: @color_white  !important;
+
+	&:hover {
+		background-color: @color_white;
+		color: @color_yellow  !important;
+		border: 1px solid @color_yellow;
+
+		&::selection {
+			color: @color_white;
+		}
+	}
+
+	&::selection {
+		color: @color_main;
+	}
+}
+
+.button_1 {
+	padding: 20px 60px;
+	font-size: 18px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: @font_1;
+	text-transform: uppercase;
+	transition: 0.5s ease-in-out all;
+
+	@media screen and (max-width :880px) {
+		padding: 15px 20px;
+		font-size: 16px;
+	}
+}
+
+.button_2 {
+	padding: 10px;
+	font-size: 21px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: @font_1;
+	text-transform: uppercase;
+	transition: 0.5s ease-in-out all;
+
+	@media screen and (max-width : 670px) {
+		padding: 15px 20px;
+		font-size: 16px;
+	}
+}
+
+.select__orange {
+	background-color: transparent;
+	color: @color_white;
+	text-shadow: -0.5px @color_yellow, 0.5px @color_yellow,
+		0.5px @color_yellow, -0.5px @color_yellow;
+}
+
+.select__main {
+	background-color: transparent;
+	color: @color_yellow;
+	text-shadow: 1px @color_white, 1px @color_white,
+		1px @color_white, 1px @color_white;
+}
+
+.select__white {
+	background-color: transparent;
+	color: @color_white;
+	text-shadow: -1px 0 @color_main, 0 1px @color_main,
+		1px 0 @color_main, 0 -1px @color_main;
+}
+
+.select__blue {
+	background-color: transparent;
+	color: @color_blue;
+}
+
+.shadow__orange {
+	text-shadow: -1px 0 @color_main, 0 1px @color_main,
+		1px 0 @color_main, 0 -1px @color_main;
+}
+
+.background {
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 0.5s ease-in-out all;
+
+	@media screen and (max-width : 670px) {
+		background-position: left;
+	}
+}

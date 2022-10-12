@@ -1,0 +1,34 @@
+#block_bigtext {
+
+    .bigText {
+        display: flex;
+
+        &__text {
+            font-size: 1.5rem;
+            padding: 40px 0;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .bigText {
+            &__text {
+                width: 60%;
+                display: flex;
+
+            }
+        }
+
+        .right {
+            .bigText {
+                justify-content: right;
+            }
+        }
+
+        .center {
+            .bigText {
+                justify-content: center;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,89 @@
+@import (reference) "../../styles/vars.less";
+
+#block_footer {
+
+    background-color: @color_gray;
+    padding: 20px 0;
+
+    .footer {
+
+        a,
+        p {
+            color: @color_white;
+            font-size: 1.5rem;
+        }
+
+        &__menu {
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__contact {
+
+            a {
+                color: @color_main;
+                font-weight: 700;
+            }
+
+        }
+
+        &__redirections {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__partners {
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__icon {
+            margin-top: 10px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .footer {
+
+            a,
+            p {
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        padding: 50px 0;
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+
+            &__menu {
+                padding: 0;
+            }
+
+            a,
+            p {
+                font-size: 1.7rem;
+            }
+
+            &__partners {
+                padding-top: 0;
+            }
+
+            &__icon {
+                margin-top: 0;
+            }
+        }
+    }
+
+}
+
+.hentry {
+    margin: 0 !important;
+}

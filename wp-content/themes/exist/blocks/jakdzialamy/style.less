@@ -1,0 +1,144 @@
+@import (reference) "../../styles/vars.less";
+
+#block_jakdzialamy {
+    position: relative;
+    margin-bottom: 50px;
+
+    .conteiner {
+        z-index: 999;
+    }
+
+    .operate {
+
+        &__line {
+            position: absolute;
+            height: 2px;
+            width: 100%;
+            background-color: @color_black;
+            z-index: 1;
+            top: 20px;
+        }
+
+        &__top {
+            text-align: center;
+            z-index: 999;
+            background-color: @color_white;
+            padding: 10px;
+        }
+
+        &__title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: @color_main;
+            z-index: 999;
+        }
+
+        &__subtitle {
+            font-size: 1.5rem;
+        }
+
+        &__box {
+            position: relative;
+            margin-top: 30px;
+        }
+
+        &__number {
+            position: absolute;
+            top: -15px;
+            left: -5px;
+            font-size: 6rem;
+            color: @color_main;
+            font-weight: 700;
+        }
+
+        &__header,
+        &__text {
+            padding-left: 30px;
+        }
+
+        &__header {
+            font-size: 2.3rem;
+            color: @color_main;
+            font-weight: 700;
+        }
+
+        &__text {
+            font-size: 1.4rem;
+        }
+
+        &__imageBox {
+            display: none;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .operate {
+            &__content {
+                display: flex;
+            }
+
+            &__left {
+                width: 35%;
+            }
+
+            &__center {
+                width: 30%;
+            }
+
+            &__imageBox {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+
+                &--image {
+                    width: 50%;
+                }
+            }
+
+            &__right {
+                width: 35%;
+            }
+        }
+    }
+
+
+    @media (min-width: 1200px) {
+        margin-bottom: 0;
+        padding: 50px 0;
+
+        .operate {
+            padding-bottom: 50px;
+
+            &__title {
+                font-size: 3rem;
+            }
+
+            &__number {
+                font-size: 8rem;
+                left: -10px;
+            }
+
+            &__subtitle {
+                font-size: 2.5rem;
+            }
+
+            &__header,
+            &__text {
+                padding-left: 50px;
+            }
+
+            &__text {
+                font-size: 1.5rem;
+            }
+
+            &__imageBox {
+                &--image {
+                    width: 20%;
+                }
+            }
+
+        }
+    }
+
+}

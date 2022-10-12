@@ -1,0 +1,82 @@
+@import (reference) "vars.less";
+
+#cookie-law {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	right: 0;
+	width: 50%;
+	min-height: 200px;
+	background-color: @color_orange;
+	border-top: 1px solid @color_white;
+	border-radius: 8px;
+	color: @color_white;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1.5rem;
+	@media (max-width: 765px) {
+		width: 90%;
+	}
+
+	.cookieText {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 80%;
+		@media (max-width: 765px) {
+			padding-bottom: 20px;
+		}
+
+	}
+
+	p {
+		color: @color_white;
+	}
+
+	>div:nth-of-type(1) {
+
+		flex: 10;
+
+		p:last-of-type {
+			margin-bottom: 0px;
+		}
+
+		a {
+			color: @color_white;
+
+			&:hover {
+				color: @color_white;
+				text-decoration: none;
+			}
+		}
+	}
+
+	>div:nth-of-type(2) {
+
+		flex: 2;
+
+		a {
+			display: inline-block;
+			padding: 10px 30px;
+			width: 100%;
+			box-sizing: border-box;
+			text-align: center;
+			background-color: @color_white;
+			color: @color_orange;
+			text-decoration: none;
+			text-transform: uppercase;
+			border-radius: 8px;
+			transition: 0.5s ease-in-out all;
+
+			&:hover {
+				background-color: @color_orange;
+				color: @color_white;
+
+			}
+
+		}
+
+	}
+}

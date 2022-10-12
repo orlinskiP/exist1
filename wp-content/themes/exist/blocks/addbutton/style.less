@@ -1,0 +1,56 @@
+@import (reference) "../../styles/vars.less";
+
+#block_addbutton {
+    .addbutton {
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &__title {
+            font-size: 2.2rem;
+            padding-bottom: 50px;
+        }
+
+        &__button {
+            display: flex;
+
+            a {
+                font-size: 1.7rem;
+                font-weight: 700;
+                color: @color_orange;
+                border: 1px solid @color_orange;
+                background-color: @color_white;
+                padding: 20px 80px;
+                border-radius: 8px;
+                transition: all 0.5s ease-out;
+                text-decoration: none;
+
+                &:hover {
+                    background-color: @color_orange;
+                    color: @color_white;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 1200px) {
+        
+        .addbutton {
+            height: 200px;
+
+            &__title {
+                font-size: 3.5rem;
+                padding-bottom: 50px;
+            }
+
+            &__button {
+                a {
+                    font-size: 2.2rem;
+                }
+            }
+        }
+    }
+}

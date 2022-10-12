@@ -1,0 +1,63 @@
+@import (reference) "../../styles/vars.less";
+
+#block_lh {
+    padding: 20px 0;
+
+    .lh {
+        &__header {
+            font-size: 3rem;
+        }
+
+        &__imageBox {
+            display: flex;
+            justify-content: center;
+
+            &--image {
+                width: 50%;
+            }
+        }
+
+        &__info {
+            border-top: 1px solid @color_black;
+            padding-top: 30px;
+
+            h3 {
+                font-size: 2rem;
+                padding-bottom: 20px;
+            }
+
+            a {
+                font-size: 1.6rem;
+                color: @color_blue;
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        .lh {
+            &__info {
+                h3 {
+                    font-size: 2.5rem;
+                }
+
+                a {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+    }
+
+    @media (min-width: 992px) {
+        .lh {
+            &__content {
+                display: flex;
+            }
+
+            &__info {
+                width: 80%;
+                text-align: center;
+            }
+        }
+    }
+}

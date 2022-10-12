@@ -1,0 +1,60 @@
+@import (reference) "../../styles/vars.less";
+
+#block_thankyou {
+    height: 70vh;
+    margin-top: 200px;
+
+    .error {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 150px;
+
+        &__header {
+            color: @color_main;
+        }
+
+        &__sign {
+            font-size: 10rem;
+            font-weight: bold;
+            color: @color_main;
+        }
+
+        &__text {
+            font-size: 2rem;
+            padding-top: 20px;
+        }
+
+        &__button {
+            padding-top: 50px;
+            display: flex;
+
+            a {
+                font-size: 1.5rem;
+                color: @color_white;
+                background-color: @color_orange;
+                padding: 10px 20px;
+                border-radius: 8px;
+
+                &:hover,
+                &:visited {
+                    color: @color_white;
+                    text-decoration: none;
+                }
+            }
+
+            &--first {
+                border-radius: 8px;
+            }
+
+
+        }
+    }
+
+    @media (min-width: 1400px) {
+        margin-top: 0;
+        height: 80vh;
+    }
+
+}

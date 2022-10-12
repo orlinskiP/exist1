@@ -1,0 +1,256 @@
+@import (reference) "../../styles/vars.less";
+
+#contactform {
+    .contactform {
+
+        &__title {
+            font-size: 4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        &__imageTitle {
+            font-size: 3rem;
+        }
+
+        &__image {
+            width: 50%;
+            padding-top: 20px;
+        }
+
+        &__text {
+            font-size: 1.7rem;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+
+        &__header {
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 20px 0px;
+        }
+
+        a {
+            font-size: 1.5rem;
+        }
+
+        &__left {
+            padding: 40px 20px;
+
+        }
+
+        &__right {
+            padding: 40px 20px;
+            background-color: @color_gray;
+        }
+
+        &__info {
+            color: @color_white;
+
+        }
+
+        &__number {
+            font-weight: 700;
+            color: @color_main;
+        }
+
+        input {
+            width: 320px;
+            padding: 15px;
+        }
+
+        textarea {
+            width: 320px;
+            padding: 15px;
+        }
+
+        input,
+        textarea {
+            border-radius: 8px;
+        }
+
+        input[type=submit] {
+            width: 50%;
+            background-color: @color_orange;
+            color: @color_white;
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .contactform {
+            &__left {
+                padding-left: 0;
+            }
+
+            &__text {
+                font-size: 2rem;
+            }
+
+            &__header {
+                font-size: 1.7rem;
+            }
+
+            a {
+                font-size: 1.7rem;
+            }
+
+            input {
+                width: 640px;
+            }
+
+            textarea {
+                width: 640px;
+            }
+        }
+    }
+
+    @media (min-width: 992px) {
+        .contactform {
+            margin: 50px 0px;
+            display: flex;
+
+            &__image {
+                width: 90%;
+                padding-top: 20px;
+            }
+
+            input {
+                width: 440px;
+            }
+
+            textarea {
+                width: 440px;
+            }
+
+            &__left {
+                width: 40%;
+            }
+
+            &__right {
+                width: 60%;
+                border-radius: 8px;
+            }
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .contactform {
+
+            &__phone,
+            &__mail {
+                padding-top: 40px;
+            }
+
+            a {
+                font-size: 2.9rem;
+            }
+
+            &__image {
+                width: 60%;
+                padding-top: 50px;
+            }
+
+            &__header {
+                font-weight: bold;
+                font-size: 2rem;
+            }
+
+            form {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            input {
+                width: 550px;
+            }
+
+            textarea {
+                width: 550px;
+            }
+
+            input[type=submit] {
+                width: 130%;
+            }
+        }
+
+    }
+
+    @media (min-width: 1400px) {
+        .contactform {
+
+            &__phone,
+            &__mail {
+                padding-top: 40px;
+            }
+
+            &__header {
+                font-weight: bold;
+            }
+
+            form {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            input {
+                width: 700px;
+            }
+
+            textarea {
+                width: 700px;
+            }
+
+            input[type=submit] {
+                width: 130%;
+            }
+        }
+
+    }
+
+    @media (min-width: 1700px) {
+        .contactform {
+
+            &__phone,
+            &__mail {
+                padding-top: 40px;
+            }
+
+            &__header {
+                font-weight: bold;
+            }
+
+            form {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            input {
+                width: 780px;
+            }
+
+            textarea {
+                width: 780px;
+            }
+
+            input[type=submit] {
+                width: 130%;
+            }
+        }
+
+    }
+
+    @media screen and (min-device-width: 300px) and (max-device-width: 760px) {
+        .container {
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    }
+}

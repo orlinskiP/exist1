@@ -1,0 +1,91 @@
+@import (reference) "../../styles/vars.less";
+
+#block_dwiekolumny {
+    .doubleColumn {
+        &__titleLeft {
+            font-size: 3rem;
+            color: @color_main;
+        }
+
+        &__textLeft {
+            font-size: 1.6rem;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        &__elements {
+            display: flex;
+            padding: 5px 0;
+
+            img {
+                width: 25px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                margin-right: 10px;
+            }
+        }
+
+        &__textElement {
+            font-size: 1.5rem;
+        }
+
+        &__right {
+            background-color: #FFE1B7;
+            padding: 30px;
+            margin-top: 40px;
+        }
+
+        &__titleRight {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        &__textRight {
+            font-size: 1.7rem;
+            padding: 40px 0;
+        }
+
+        &__button {
+            display: flex;
+
+            a {
+                font-size: 1.5rem;
+                color: @color_white;
+                background-color: @color_orange;
+                padding: 10px 20px;
+                border-radius: 8px;
+            }
+
+            &--first {
+                border-radius: 8px;
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        .doubleColumn {
+            display: flex;
+
+            &__left {
+                width: 60%;
+            }
+
+            &__textLeft {
+                padding-right: 20px;
+            }
+
+            &__right {
+                width: 40%;
+            }
+        }
+    }
+
+    @media (min-width: 992px) {
+        .doubleColumn {
+            &__right {
+                padding: 50px;
+            }
+        }
+    }
+}

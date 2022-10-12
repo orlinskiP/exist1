@@ -1,0 +1,53 @@
+[2022-10-10 07:36:00 : INFO] - Re_Smush_It_Task with attachment ID : 2309, autocreated on : October 10, 2022 07:36:00 
+[2022-10-10 07:41:17 : INFO] - 
+ 
+[2022-10-10 07:41:17 : INFO] - Header for logs at time:  Mon, 10 Oct 2022 07:41:17 +0000 on http://localhost/existagency 
+[2022-10-10 07:41:17 : INFO] - WP: 6.0.2 
+[2022-10-10 07:41:17 : INFO] - PHP: 7.3.25 (apache2handler, Windows NT DESKTOP-IGGS6IA 10.0 build 19044 (Windows 10) AMD64) 
+[2022-10-10 07:41:17 : INFO] - MySQL: 5.5.5 
+[2022-10-10 07:41:17 : INFO] - WPLANG: pl_PL 
+[2022-10-10 07:41:17 : INFO] - Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.3.25 
+[2022-10-10 07:41:17 : INFO] - Outbound connections: N 
+[2022-10-10 07:41:17 : INFO] - safe_mode: 0 
+[2022-10-10 07:41:17 : INFO] - max_execution_time: 120 
+[2022-10-10 07:41:17 : INFO] - memory_limit: 512M (used: 42.1M | 6M) 
+[2022-10-10 07:41:17 : INFO] - multisite: N 
+[2022-10-10 07:41:17 : INFO] - openssl: OpenSSL 1.1.1h  22 Sep 2020 
+[2022-10-10 07:41:17 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2022-10-10 07:41:17 : DEBUG] - Lock option (updraft_lock_smush, 4g3ncy_options) was created in the database 
+[2022-10-10 07:41:17 : INFO] - Lock (updraft_lock_smush, 4g3ncy_options) acquired after initialising the database 
+[2022-10-10 07:41:17 : INFO] - Processing task with ID : 50, and type 'smush' 
+[2022-10-10 07:41:17 : INFO] - Re_Smush_It_Task with attachment ID : 2309, autocreated on : October 10, 2022 07:36:00 
+[2022-10-10 07:41:17 : INFO] - 75 
+[2022-10-10 07:41:35 : INFO] - Backing up the original image - 2022/10/colourful-acrylic-bubblesabstract-ink-design-template-mixed-texture-background-liquid-color-backdrop-wallpaper-pattern-oil-poster-design-template-fluid-art-updraft-pre-smush-original.jpg 
+[2022-10-10 07:41:35 : INFO] - Re_Smush_It_Task with attachment ID : 2309, autocreated on : October 10, 2022 07:36:00 
+[2022-10-10 07:41:35 : INFO] - 75 
+[2022-10-10 07:41:36 : INFO] - Re_Smush_It_Task with attachment ID : 2309, autocreated on : October 10, 2022 07:36:00 
+[2022-10-10 07:41:36 : INFO] - 75 
+[2022-10-10 07:41:39 : INFO] - Re_Smush_It_Task with attachment ID : 2309, autocreated on : October 10, 2022 07:36:00 
+[2022-10-10 07:41:39 : INFO] - 75 
+[2022-10-10 07:41:39 : INFO] - Re_Smush_It_Task with attachment ID : 2309, autocreated on : October 10, 2022 07:36:00 
+[2022-10-10 07:41:39 : INFO] - 75 
+[2022-10-10 07:41:40 : INFO] - Re_Smush_It_Task with attachment ID : 2309, autocreated on : October 10, 2022 07:36:00 
+[2022-10-10 07:41:41 : INFO] - 75 
+[2022-10-10 07:41:43 : INFO] - Successfully optimized the image - C:\xampp\htdocs\existagency/wp-content/uploads/2022/10/colourful-acrylic-bubblesabstract-ink-design-template-mixed-texture-background-liquid-color-backdrop-wallpaper-pattern-oil-poster-design-template-fluid-art.jpg.The file was compressed from 3.32 MB to 550.59 KB saving 83.78 percent using WP-Optimize 
+[2022-10-10 07:41:43 : INFO] - Completed processing task with ID : 50, and type 'smush' 
+[2022-10-10 07:41:43 : INFO] - Lock option (updraft_lock_smush, 4g3ncy_options) released 
+[2022-10-10 07:41:43 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2022-10-10 07:41:43 : INFO] - Lock option (updraft_lock_smush, 4g3ncy_options) was deleted from the database 
+[2022-10-10 07:41:43 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2022-10-10 07:59:38 : INFO] - 
+ 
+[2022-10-10 07:59:38 : INFO] - Header for logs at time:  Mon, 10 Oct 2022 07:59:38 +0000 on http://localhost/existagency 
+[2022-10-10 07:59:38 : INFO] - WP: 6.0.2 
+[2022-10-10 07:59:38 : INFO] - PHP: 7.3.25 (apache2handler, Windows NT DESKTOP-IGGS6IA 10.0 build 19044 (Windows 10) AMD64) 
+[2022-10-10 07:59:38 : INFO] - MySQL: 5.5.5 
+[2022-10-10 07:59:38 : INFO] - WPLANG: pl_PL 
+[2022-10-10 07:59:38 : INFO] - Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.3.25 
+[2022-10-10 07:59:38 : INFO] - Outbound connections: N 
+[2022-10-10 07:59:38 : INFO] - safe_mode: 0 
+[2022-10-10 07:59:38 : INFO] - max_execution_time: 120 
+[2022-10-10 07:59:38 : INFO] - memory_limit: 512M (used: 42.1M | 12M) 
+[2022-10-10 07:59:38 : INFO] - multisite: N 
+[2022-10-10 07:59:38 : INFO] - openssl: OpenSSL 1.1.1h  22 Sep 2020 
+[2022-10-10 07:59:38 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 

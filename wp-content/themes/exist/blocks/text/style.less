@@ -1,0 +1,53 @@
+@import (reference) "../../styles/vars.less";
+
+.block_text {
+	margin: 30px 0;
+
+	.blockText {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		position: relative;
+
+		&__line {
+			width: 100%;
+			height: 2px;
+			background-color: @color_black;
+		}
+
+		&__content {
+			position: absolute;
+			top: -40px;
+			padding: 10px 20px;
+			font-size: 1.8rem;
+			line-height: 2rem;
+			background-color: @color_white;
+			font-weight: 700;
+			color: @color_main;
+			width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+
+	}
+
+	@media (min-width: 768px) {
+		.blockText {}
+	}
+
+	@media (min-width: 992px) {
+		.blockText {}
+	}
+
+	@media (min-width: 1200px) {
+		.blockText {
+			&__content {
+				font-size: 3rem;
+				line-height: 4rem;
+				width: 65%;
+			}
+		}
+	}
+}
